@@ -1,3 +1,4 @@
+/* basic setting */
 html, body {
   width: 100%;
   height: 100%;
@@ -39,11 +40,26 @@ img {
   display: block;
 }
 
+.clearfix::after {
+  display: table;
+  content: '';
+  clear: both;
+}
+
 .container {
   width: 85%;
   max-width: 1170px;
   margin: 0 auto;
   position: relative;
+}
+
+h2 {
+  margin-bottom: 75px;
+  text-align: center;
+  font-size: 40px;
+  line-height: 50px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
 /* header */
@@ -123,4 +139,88 @@ img {
   line-height: 40px;
   font-size: 19px;
   margin-right: 7px;
+}
+
+/* about me */
+
+.about_me {
+  padding: 100px 0;
+  background-color: #D2F2EB;
+}
+
+.col-left, .col-right {
+  float: left;
+  width: 50%;
+  padding: 0 15px;
+}
+
+.personal-info h3 {
+  font-size: 24px;
+  letter-spacing: 2px;
+  margin-bottom: 6px;
+  text-transform: capitalize;
+}
+
+.personal-info p {
+  color: #787878;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: justify;
+}
+
+.personal-info p a {
+  color: #000;
+  display: inline-block;
+  margin-bottom: 12px;
+}
+
+.skill {
+  margin: 20px auto;
+}
+
+.skill li {
+  font-size: 15px;
+  line-height: 35px;
+  text-transform: capitalize;
+}
+
+.skill_icons {
+  color: #5A726D;
+  font-size: 40px;
+  text-align: justify;
+  margin-top: 15px;
+}
+
+.skill_icons i {
+  padding-right: 10px;
+}
+
+.button-group .download_resume,
+.button-group .hire_me {
+ display: inline-block;
+}
+
+.button-group .download_resume {
+  margin-right: 18px;
+}
+
+.button-group a {
+  display: block;
+  color: #000;
+  border: 1px solid #333;
+  border-radius: 10px;
+  text-transform: capitalize;
+  padding: 10px 38px;
+  margin-top: 10px;
+}
+
+.button-group a:hover {
+  background-color: #000;
+  color: #fff;
+  transition: all .4s linear;
+  -webkit-transition: all .4s linear; #Google Chrome 及 Safari：-webkit-
+  -moz-transition: all .4s linear; #FireFox：-moz-
+  -ms-transition: all .4s linear; #Internet Explorer：-ms-
+  -o-transition: all .4s linear; #Opera：-o-
+  transition: all .4s linear;
 }
