@@ -154,6 +154,8 @@ h2 {
   padding: 0 15px;
 }
 
+
+
 .personal-info h3 {
   font-size: 24px;
   letter-spacing: 2px;
@@ -163,9 +165,10 @@ h2 {
 
 .personal-info p {
   color: #787878;
-  font-size: 18px;
-  line-height: 24px;
+  font-size: 16px;
+  line-height: 22px;
   text-align: justify;
+  letter-spacing: 2px;
 }
 
 .personal-info p a {
@@ -175,7 +178,7 @@ h2 {
 }
 
 .skill {
-  margin: 20px auto;
+  margin: 10px auto;
 }
 
 .skill li {
@@ -187,12 +190,11 @@ h2 {
 .skill_icons {
   color: #5A726D;
   font-size: 40px;
-  text-align: justify;
-  margin-top: 15px;
+  margin-left: 15px;
 }
 
 .skill_icons i {
-  padding-right: 10px;
+  padding-right: 18px;
 }
 
 .button-group .download_resume,
