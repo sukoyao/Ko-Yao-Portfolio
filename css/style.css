@@ -53,6 +53,10 @@ img {
   position: relative;
 }
 
+section {
+  padding: 100px 0;
+}
+
 h2 {
   margin-bottom: 75px;
   text-align: center;
@@ -144,7 +148,6 @@ h2 {
 /* about me */
 
 .about_me {
-  padding: 100px 0;
   background-color: #D2F2EB;
 }
 
@@ -153,8 +156,6 @@ h2 {
   width: 50%;
   padding: 0 15px;
 }
-
-
 
 .personal-info h3 {
   font-size: 24px;
@@ -226,3 +227,69 @@ h2 {
   -o-transition: all .4s linear; #Opera：-o-
   transition: all .4s linear;
 }
+
+/* resume */
+
+.col-horizontal {
+  padding-bottom: 16px;
+  border-bottom: 1px solid #767676;
+}
+
+.col-horizontal:last-child {
+  border-bottom: 0;
+}
+
+h3.resume-subtitle {
+  font-size: 20px;
+  margin-top: 12px;
+  margin-left: 15px;
+  text-transform: capitalize;
+}
+
+.col-horizontal .col-item {
+  float: left;
+  width: 50%;
+  padding: 0 15px;
+}
+
+.experience-year {
+  color: #fff;
+  background-color: #000;
+  display: inline-block;
+  padding: 4px 20px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.col-left {
+  float: left;
+  width: 30%;
+  padding-left: 0;
+}
+
+.col-right {
+  float: left;
+  width: 65%;
+}
+
+.resume-detail img {
+  display: inline-block;
+  height: 80px;
+  width: 80px;
+}
+
+.resume-detail .col-right h4 {
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.resume-detail .col-right h6 {
+  font-size: 12px;
+  margin-bottom: 9px;
+}
+
+.resume-detail .col-right p {
+  line-height: 22px;
+  letter-spacing: 2px;
+}
+
