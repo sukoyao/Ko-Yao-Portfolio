@@ -3,7 +3,7 @@
 ## Profile
 * Education: 聖約翰科技大學 (電機工程系)
 * Email: sukoyao1101@gmail.com
-* [作品集](https://github.com/sukoyao/Ko-Yao-Portfolio)
+* [作品集](https://sukoyao.github.io/Ko-Yao-Portfolio/.)
 * [Linkedin](https://www.linkedin.com/in/s-yao-47aa19197/)
 * [Github](https://github.com/sukoyao)
 * [Cakeresume](https://www.cakeresume.com/me/S.yao)
