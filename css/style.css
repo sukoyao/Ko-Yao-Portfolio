@@ -304,8 +304,8 @@ h3.resume-subtitle {
 }
 
 .col-horizontal .col-item {
-  width: 90%;
-  padding: 0 15px;
+    width: 100%;
+    padding: 40px 15px;
 }
 
 .experience-year {
@@ -313,13 +313,13 @@ h3.resume-subtitle {
   background-color: #000;
   display: inline-block;
   padding: 4px 20px;
-  margin-top: 15px;
-  margin-bottom: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .resume-detail .col-left {
   float: left;
-  width: 48%;
+  width: 50%;
   padding-left: 0;
   text-align: center;
 }
@@ -327,7 +327,8 @@ h3.resume-subtitle {
 .resume-detail .col-right {
   float: left;
   width: 50%;
-  letter-spacing: 4px;
+  letter-spacing: 2px;
+  padding-top: 0;
 }
 
 .resume-detail img {
@@ -336,14 +337,16 @@ h3.resume-subtitle {
 }
 
 .resume-detail .col-right h4 {
-  font-size: 16px;
+  font-size: 15px;
   line-height: 22px;
+
 }
 
 .resume-detail .col-right h6 {
   font-size: 12px;
   margin-bottom: 9px;
   margin-top: 10px;
+  font-weight: 700;
 }
 
 .resume-detail .col-right p {
@@ -351,7 +354,7 @@ h3.resume-subtitle {
   letter-spacing: 2px;
 }
 
-/* website work */
+/* project */
 
 .works {
   background-color: #f7f7f7;
@@ -393,29 +396,30 @@ h3.resume-subtitle {
 /* contact */
 
 .mark {
-  background-color: #fff;
-  font-size: 250px;
-  font-weight: 500;
-  color: rgba(90, 90, 90, 0.2);
-  margin-top: -80px;
+    font-size: 180px;
+    font-weight: 700;
+    color: rgba(90, 90, 90, 0.2);
+    background-color: #fff;
+    margin-top: 10px;
+
 }
 
 .icon {
   text-align: center;
-  margin-top: 80px;
+  margin-top: -40px;
   margin-right: auto;
 }
 
 .namecard {
-  text-align: left;
-  border-radius: 8px;
-  width: 250px;
-  height: 320px;
-  padding: 25px;
-  margin-left: 60%;
-  background-color: #f1f1f1;
-  box-shadow: 5px 3px 20px rgba(0, 0, 0, 0.2);
-  overflow: hidden;
+    text-align: left;
+    border-radius: 8px;
+    width: 200px;
+    height: 300px;
+    padding: 25px;
+    margin: 0 auto;
+    background-color: #f1f1f1;
+    box-shadow: 5px 3px 20px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
 }
 
 .icon a {
@@ -558,12 +562,29 @@ footer {
   }
 
   /* Resume */
-  .col-horizontal {
-    display: flex;
-    flex-flow: row wrap;
+  .resume-detail .col-left {
+    width: 30%;
+    padding: 0px 10px;
   }
 
-  .col-horizontal .resume-subtitle {
-    flex-basis: 100%;
+  .resume-detail .col-right {
+    width: 70%;
+    padding: 0px 10px;
   }
+
+  .col-horizontal .col-item {
+    width: 50%;
+    padding: 40px 15px;
+    float: left;
+}
+
+  /* contact */
+  .mark {
+    margin: 0 80px;
+    font-weight: 500;
+    padding-left: initial;
+  }
+
+
+
 }
