@@ -19,5 +19,5 @@
 * 活用 Git / GitHub、終端機 / CLI 與 VS Code 來開發與管理專案
 * 操作「關聯式」與 NoSQL 資料庫
 
-## Authors
+## Author
 * **蘇克堯** - *Initial work* - [Github: sukoyao](https://github.com/sukoyao)
