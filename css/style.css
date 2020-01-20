@@ -137,6 +137,7 @@ h2 {
 .nav li a {
   padding: 7px 10px;
   color: white;
+  text-transform: capitalize;
 }
 
 .nav li a:hover {
